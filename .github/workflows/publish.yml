@@ -26,5 +26,5 @@ jobs:
       - name: 'Build Inventory Image'
         working-directory: ./
         run: |
-          docker build . --tag ghcr.io/tadiesse/image_to_ghcr_byalvin:latest
-          docker push ghcr.io/tadiesse/image_to_ghcr_byalvin:latest
+          docker build . --tag ghcr.io/tadiesse/image:latest
+          docker push ghcr.io/tadiesse/image:latest
